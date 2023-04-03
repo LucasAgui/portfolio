@@ -13,6 +13,9 @@ body {
 .background-dark{
     background-color: rgb(30, 30, 30);
 }
+.background-gray{
+    background-color: rgba(100, 100, 100, .5);
+}
 .border-white {
     border: 5px solid rgba(255, 255, 255, 1);
 }
@@ -111,9 +114,9 @@ header {
     margin: 5vh auto;
 }
 .ruta__cartel {
-    width: 95%;
+    width: 98%;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 40px;
     letter-spacing: 1px;
 }
 .ruta__cartel h1{
@@ -139,7 +142,7 @@ header {
     display: grid;
     justify-items: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     grid-template:
         "t1 t2" 
         "t3 t4"
@@ -151,14 +154,12 @@ header {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-color: rgba(100, 100, 100, .5);
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 210px;
     border-radius: 40px;
-    margin: 0 10px;
 }
 .barra, .barra::after{
-    margin-top: 10px;
+    margin-bottom: 5px;
     position: relative;
     width: 100px;
     height: 8px;
@@ -168,9 +169,9 @@ header {
 .barra::after {
     content: "";
     position: absolute;
-    top: -10px;
     background-color: #F06AFF;
     left: -100px;
+    bottom: -5;
     transition: color 0.1s, background-color 0.2s ease-in-out;
 }
 .face {
@@ -186,25 +187,26 @@ header {
 }
 .front {
     transform: perspective(600px) rotateY(0deg);
-    height: 160px;
-    width: 180px;
+    width: 200px;
+    height: 210px;
     border-radius: 40px;
 }
 .front img {
     margin: auto;
-    padding: 20px 5px 5px;
+    padding: 20px 5px .8em;
     border-bottom: 3px solid rgb(30, 30, 30);
 }
 .front h1{
-    width: 70%;
+    font-size: 2em;
+    width: 85%;
     border-radius: 25px;
-    margin: 15px auto 0;
+    margin: 0.2em auto 5px;
 }
 .tarjeta .back {
     position: absolute;
     transform: perspective(600px) rotateY(180deg);
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 210px;
     border-radius: 40px;
 }
 .back p {
@@ -227,5 +229,4 @@ header {
 /*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #pre {
     height: 400px;
-}
 }
