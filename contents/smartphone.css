@@ -1,0 +1,50 @@
+﻿@media screen and (min-height: 512px) and (min-width: 577px) and (max-width: 768px) {
+    .presentacion {
+        height: 512px;
+    }
+}
+
+@media screen and (min-height: 661px) and (min-width: 769px) and (max-width: 992px) {
+    .presentacion {
+        height: 661px;
+    }
+}
+/*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 576px){
+    header .nav-link {
+        margin: 0 5px;
+    }
+    #ruta {
+        grid-template-areas:
+            "t1" "t2"
+            "t3" "t4"
+            "t5" "t6"
+    }
+
+    .contenedor-tarjeta:nth-child(-2n) {
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 160px;
+        height: 180px;
+    }
+    .tarjeta .back {
+        width: 160px;
+        height: 180px;
+    }
+    .ruta__cartel h1 {
+        font-size: 1.4em;
+    }
+    .back p {
+        font-size: 0.8em;
+        margin: 10px auto 0;
+        align-self: center;
+        justify-self: center;
+    }
+
+    #wel {
+        height: 384px;
+        background: linear-gradient( 0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5) ), url(assets/pc-cafe576x384.jpg) no-repeat;
+    }
+}

@@ -1,0 +1,21 @@
+﻿@media screen and (min-height: 800px) and (min-width: 993px) and (max-width: 1200px) {
+    .presentacion {
+        height: 800px;
+    }
+}
+/*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    #wel {
+        height: 512px;
+        background: linear-gradient( 0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5) ), url(assets/pc-cafe768x512.jpg) no-repeat;
+    }
+    .ruta__cartel h1 {
+        font-size: 1.8em;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #wel {
+        height: 661px;
+        background: linear-gradient( 0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5) ), url(assets/pc-cafe992x661.jpg) no-repeat;
+    }
+}
