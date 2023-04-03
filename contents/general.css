@@ -1,5 +1,6 @@
-﻿*{
-    box-sizing: border-box;
+﻿:root{
+    --largo-barra: 60%;
+    --transition: color 0.1s, background-color 0.2s ease-in-out;
 }
 body {
     background-color: rgb(57, 57, 57);
@@ -165,15 +166,20 @@ header {
     height: 8px;
     background-color: rgba(200, 200, 200, 1);
     border-radius: 40px;
+    overflow: hidden;
 }
 .barra::after {
     content: "";
     position: absolute;
     background-color: #F06AFF;
     left: -100px;
-    bottom: -5;
-    transition: color 0.1s, background-color 0.2s ease-in-out;
+    transition: var(--transition);
+    animation: skill-bar-fill 2s ease-in-out forwards;
 }
+.barra-60::after{
+    --largo-barra: 60%;
+}
+
 .face {
     display: flex;
     align-items: center;
@@ -229,4 +235,9 @@ header {
 /*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #pre {
     height: 400px;
+}
+@keyframes skill-bar-fill{
+    to{
+        transform: translateX(var(--largo-barra));
+    }
 }
