@@ -179,6 +179,21 @@ header {
 .barra-60::after{
     --largo-barra: 60%;
 }
+.barra-40::after{
+    --largo-barra: 40%;
+}
+.barra-30::after{
+    --largo-barra: 30%;
+}
+.barra-75::after{
+    --largo-barra: 75%;
+}
+.barra-50::after{
+    --largo-barra: 50%;
+}
+.barra-20::after{
+    --largo-barra: 20%;
+}
 
 .face {
     display: flex;
