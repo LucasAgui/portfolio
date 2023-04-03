@@ -194,7 +194,11 @@ header {
 .barra-20::after{
     --largo-barra: 20%;
 }
-
+@keyframes skill-bar-fill{
+    to{
+        transform: translateX(var(--largo-barra));
+    }
+}
 .face {
     display: flex;
     align-items: center;
@@ -247,12 +251,10 @@ header {
 .tarjeta:hover .back{
     transform: perspective(600px) rotateY(360deg);
 }
+.pro .pro__cartel{
+    font-size: 2.2em;
+}
 /*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #pre {
     height: 400px;
-}
-@keyframes skill-bar-fill{
-    to{
-        transform: translateX(var(--largo-barra));
-    }
 }
