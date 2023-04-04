@@ -52,6 +52,11 @@
             height: 210px;
         }
     }
+    @media screen and (max-width: 400px){
+        .header__navlink{
+            font-size: 0.8em;
+            margin: 0 2px;
+        }
 }
 @media screen and (min-width:620px) {
     .contenedor__tarjeta{
