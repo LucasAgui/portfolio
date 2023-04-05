@@ -8,6 +8,12 @@
         width: 150px;
         height: 150px;
     }
+    .about__tittle{
+        font-size: 2em;
+    }
+    .about__text{
+        font-size: 1.4em;
+    }
     .ruta__cartel h1 {
         font-size: 1.4em;
     }
@@ -50,9 +56,7 @@
         }
 }
 @media screen and (min-width:620px) {
-    .about__text{
-        font-size: 1.7em;
-    }
+
     .contenedor__tarjeta{
         grid-template: 
         "t1 t2 t3"
