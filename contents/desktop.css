@@ -1,20 +1,35 @@
 ﻿@media screen and (min-height: 993px) and (min-width: 1201px) {
-    .presentacion {
-        height: 800px;
+    .presentacion__tarjeta h1{
+        font-size: 3.5em;
+    }
+    .presentacion__tarjeta p, li{
+        font-size: 1.8em;
+    }
+    .presentacion__tarjeta{
+        padding: 30px;
     }
 }
 /*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-    #wel {
-        height: 800px;
-        background: linear-gradient( 0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5) ), url(assets/pc-cafe1200x800.jpg) no-repeat;
+    .presentacion__tarjeta h1{
+        font-size: 3.5em;
+    }
+    .presentacion__tarjeta p, li{
+        font-size: 1.8em;
+    }
+    .presentacion__tarjeta{
+        padding: 30px;
     }
 }
 
 @media screen and (min-width: 1201px) {
-    #wel {
-        height: 993px;
-        background: linear-gradient( 0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5) ), url(assets/pc-cafe1400x993.jpg) no-repeat;
-        background-size: cover;
+    .presentacion__tarjeta h1{
+        font-size: 3.5em;
+    }
+    .presentacion__tarjeta p, li{
+        font-size: 1.8em;
+    }
+    .presentacion__tarjeta{
+        padding: 30px;
     }
 }
