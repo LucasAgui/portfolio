@@ -1,4 +1,7 @@
 ﻿@media screen and (min-width: 577px) and (max-width: 768px) {
+    .presentacion__tarjeta img{
+        
+    }
     .presentacion__tarjeta h1{
         font-size: 3em;
     }

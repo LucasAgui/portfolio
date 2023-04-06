@@ -140,7 +140,7 @@ header {
     display: block;
     margin: 10px auto 0px;
     width: 220px;
-    height: 221px;
+    height: 220px;
     box-shadow: 0 0px 40px 0px;
 }
 .wel h1 {
@@ -162,7 +162,6 @@ header {
     letter-spacing: 5px;
 }
 .about__text{
-    font-size: 1.8em;
     padding: 10px;
     margin: 0 20px auto;
     border-radius: 10px;
@@ -180,7 +179,6 @@ header {
 }
 .conocimientos__cartel {
     width: 98%;
-    height: 150px;
     border-radius: 40px;
     letter-spacing: 1px;
 }
