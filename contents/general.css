@@ -284,8 +284,8 @@ header {
     border-bottom: 3px solid rgb(30, 30, 30);
 }
 .front h1{
-    font-size: 2em;
-    width: 85%;
+    font-size: 1.8em;
+    width: 80%;
     border-radius: 25px;
     margin: 0.2em auto 5px;
 }
