@@ -175,7 +175,7 @@ header {
     text-align: center;
 }
 #conocimientos header{
-    margin: 5vh auto;
+    margin: 2vh auto;
 }
 .conocimientos__cartel {
     width: 98%;
@@ -313,13 +313,23 @@ header {
 .tarjeta:hover .back{
     transform: perspective(600px) rotateY(360deg);
 }
-.pro .pro__cartel{
+.proyectos .cartel{
     font-size: 2.2em;
 }
-/*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#pre {
-    height: 400px;
+.proyectos .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+.proyectos ul{
+    padding: 0;
+    width: 100%;
+}
+.proyectos li:first-child img{
+    margin: auto;
+}
+/*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 992px){
     .navbar .links{
         display: none;
