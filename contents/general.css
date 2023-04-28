@@ -18,7 +18,7 @@ body {
     background-color: rgba(100, 100, 100, .5);
 }
 .border-white {
-    border: 5px solid rgba(255, 255, 255, 1);
+    border: 3px solid rgba(255, 255, 255, 1);
 }
 .icon__small-border-white {
     border: 2px solid white;
@@ -154,7 +154,7 @@ header {
     letter-spacing: 1px;
 }
 .about{
-    margin: 20px 10px 0;
+    margin: auto 10px ;
 }
 .about__tittle{
     margin: 0 0 10px;
@@ -162,9 +162,9 @@ header {
     letter-spacing: 5px;
 }
 .about__text{
-    padding: 10px;
+    padding: 15px;
     margin: 0 20px auto;
-    border-radius: 10px;
+    border-radius: 60px;
 }
 
 #conocimientos {
@@ -253,8 +253,8 @@ header {
 .barra-50::after{
     --largo-barra: 50%;
 }
-.barra-20::after{
-    --largo-barra: 20%;
+.barra-10::after{
+    --largo-barra: 10%;
 }
 @keyframes skill-bar-fill{
     to{
