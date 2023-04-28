@@ -15,6 +15,9 @@
     .ruta__cartel h1 {
         font-size: 1.8em;
     }
+    .proyectos img:first-child{
+        width: 550px;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .presentacion__tarjeta h1{
@@ -28,5 +31,8 @@
     }
     .about__text{
         font-size: 2.2em;
+    }
+    .proyectos img:first-child{
+        width: 650px;
     }
 }

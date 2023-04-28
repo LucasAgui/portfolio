@@ -23,6 +23,9 @@
     .about__text{
         font-size: 2.4em;
     }
+    .proyectos img:first-child{
+        width: 850px;
+    }
 }
 
 @media screen and (min-width: 1201px) {
@@ -37,5 +40,8 @@
     }
     .about__text{
         font-size: 3em;
+    }
+    .proyectos img:first-child{
+        width: 1000px;
     }
 }
