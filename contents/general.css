@@ -322,12 +322,21 @@ header {
     justify-content: center;
     flex-direction: column;
 }
-.proyectos ul{
-    padding: 0;
-    width: 100%;
+.container_proyectos div{
+    width: 90%;
 }
-.proyectos img:first-child{
-    width: 320px;
+.container_proyectos div a{
+    text-decoration: none;
+    color: white;
+}
+.container_proyectos div a h3{
+    padding: 5px;
+    border: solid 3px rgb(30, 30, 30);
+    margin: 0 0 5px;
+}
+.video-proyecto1{
+    width: 90%;
+
 }
 /*-- -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 992px){
@@ -340,7 +349,6 @@ header {
     .dropdown_menu{
         display: block;
     }
- 
 }
 @media screen and (max-width: 576px){
     .dropdown_menu{
